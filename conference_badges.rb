@@ -25,8 +25,14 @@ end
     newarray2 = assign_rooms(attendees)
     newarray2.each do |name, index|
       puts name
+    newvar= batch_badge_creator(attendees)
+    newvar.each do |name|
+      puts name
+    newarray= assign_rooms(attendees)
+   new
     end
   end
+end
 # assign_rooms(badge_maker)
 # assign_rooms.each do |name|
 #  puts "Hello, my name is #{name}."
