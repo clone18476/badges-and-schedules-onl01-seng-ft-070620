@@ -27,6 +27,10 @@ attendees.each_with_index do |name, index |
  return new_array
 end 
   def printer(attendees)
+    
+    # The method `printer` should output first the results of the batch_badge_creator method and then of the assign_rooms method to the screen - this way you can output
+    # the badges and room assignments one at a time.
+    
     newarray= batch_badge_creator(attendees)
     newarray.each do |name|
       puts name
