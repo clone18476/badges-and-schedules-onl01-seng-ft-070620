@@ -18,7 +18,7 @@ return array
 end
 
 def assign_rooms(attendees)
-  
+      # should return a list of welcome attendees and 
   new_array=[]
   
 attendees.each_with_index do |name, index |
