@@ -7,7 +7,7 @@ return "Hello, my name is #{name}."   #badge_maker should return a formatted bad
     end
     
 def batch_badge_creator(attendees)
-  
+       # should return a list of badge messages
 array=[]
 
 attendees.each do |name|
